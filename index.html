@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+    <title>YouTube Tracker</title>
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<style>
+			body {
+				background-color: #333;
+			}
+			.video {
+				background-color: black;
+				text-align: center;
+				width: 500px;
+				margin: 0 auto 60px;
+				box-shadow: 0px 0px 10px #000;
+			}
+			
+			h2 {
+				font-family: "Comic Sans MS";
+				background-color: pink;
+				font-size: 2em;
+				line-height: 2em;
+				color: #333;
+			}
+			
+			iframe {
+				width: 460px;
+				padding: 20px;
+			}
+		</style>
+    </head>
+    <body>
+		<article id="main">
+			<figure class="video">
+				<h2>Player1</h2>
+				<div id="video-container-1"></div>
+			</figure>
+			<figure class="video">
+				<h2>Player2</h2>
+				<div id="video-container-2"></div>
+			</figure>
+		</article>
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script src="yt-tracker.js" type="text/javascript"></script>
+		<script src="main.js" type="text/javascript"></script>
+    </body>
+</html>
