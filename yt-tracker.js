@@ -94,12 +94,6 @@ TrackYT = function(options) {
 			
 			return false;
 		
-		} else if (typeof player.i === 'undefined') {
-			
-			console.log(player + 'is not a YouTube object.');
-		
-			return false;
-			
 		} else {
 		
 			return true;
